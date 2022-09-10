@@ -188,17 +188,19 @@ button:focus {
 
 #mu-header {
 	/* background-image: url("assets/images/header-bg.jpg"); */
+	background: linear-gradient(to bottom, #ed213a, #93291e) no-repeat center center/cover; 
 	display: inline;
 	float: left;
 	width: 100%;
-	background-position: center center;
-	background-attachment: fixed;
+	/* background-position: center center; */
+	/* background-attachment: fixed; */
+	/* background: linear-gradient(to right, #ed213a, #93291e) no-repeat center center/cover;  */
 }
 
 .mu-header-overlay {
 	display: inline;
 	float: left;
-	opacity: 0.8;
+	opacity: 0.95;
 	width: 100%;
 }
 
@@ -693,7 +695,8 @@ button:focus {
 
 
 #mu-apps-screenshot {
-	background-color: #fff;
+	/* background-color: #fff; */
+	background-color: #f8f8f8;
 	display: inline;
 	float: left;
 	width: 100%;
