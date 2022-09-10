@@ -187,20 +187,18 @@ button:focus {
 /*--------------------*/
 
 #mu-header {
-	/* background-image: url("assets/images/header-bg.jpg"); */
-	background: linear-gradient(to bottom, #ed213a, #93291e) no-repeat center center/cover; 
+	background: url("assets/images/background.jpg") fixed no-repeat center center/cover;
+	/* background: linear-gradient(to bottom, #ed213a, #93291e) no-repeat center center/cover;  */
 	display: inline;
 	float: left;
 	width: 100%;
-	/* background-position: center center; */
-	/* background-attachment: fixed; */
 	/* background: linear-gradient(to right, #ed213a, #93291e) no-repeat center center/cover;  */
 }
 
 .mu-header-overlay {
 	display: inline;
 	float: left;
-	opacity: 0.95;
+	opacity: 0.8;
 	width: 100%;
 }
 
