@@ -760,8 +760,8 @@ button:focus {
 	height: 100%;
 	width: 100%;
 	content: "";
-	background: rgba(0, 0, 0, 0.94);
-	opacity: .75;
+	background: #e4343a;
+	opacity: .8;
 }
 
 .mu-download-area {
