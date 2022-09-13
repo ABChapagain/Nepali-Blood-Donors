@@ -87,13 +87,14 @@
 			<a class="mu-menu-close-btn" href="#"><span class="mu-line"></span></a>
 			<nav class="mu-menu" role="navigation">
 				<ul>
-					<li><a href="#mu-header">Home</a></li>
-					<li><a href="#mu-feature">App Feature</a></li>
+					<li><a href="index.html#mu-header">Home</a></li>
+					<li><a href="index.html#mu-feature">App Feature</a></li>
 					<!-- <li><a href="#mu-video">Promo Video</a></li> -->
-					<li><a href="#mu-apps-screenshot">Apps Screenshot</a></li>
-					<li><a href="#mu-download">Download</a></li>
-					<li><a href="#mu-faq">FAQ</a></li>
-					<li><a href="#mu-contact">Get In Touch</a></li>
+					<li><a href="index.html#mu-apps-screenshot">Apps Screenshot</a></li>
+					<li><a href="index.html#mu-download">Download</a></li>
+					<li><a href="index.html#mu-faq">FAQ</a></li>
+					<li><a href="index.html#mu-contact">Get In Touch</a></li>
+					<li><a onclick="redirectTo(`privacypolicy.html`)" href="privacypolicy.html">Privacy Policy</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -105,7 +106,6 @@
 	<!-- Start main content -->
 		
 	<main role="main">
-
 		<!-- Start Feature -->
 		<section id="mu-feature">
 			<div class="container">
@@ -468,7 +468,7 @@
 							          </div>
 							          <div id="collapseFour" class="panel-collapse collapse">
 							            <div class="panel-body" style="text-align: justify;">
-											To read privacy policy : <a href="https://nepaliblooddonors.blogspot.com">Click here</a>
+											To read privacy policy : <a href="privacypolicy.html">Click here</a>
 							            </div>
 							          </div>
 							        </div>
@@ -568,14 +568,18 @@
 	<footer id="mu-footer" role="contentinfo">
 			<div class="container">
 				<div class="mu-footer-area">
-					<p class="mu-copy-right">&copy; Copyright <a rel="nofollow" href="/">Nepali Blood Donors</a>. All right reserved.</p>
+					<p class="mu-copy-right">&copy; Copyright <a rel="nofollow" href="/">Nepali Blood Donors</a>. All right reserved. <br>Made with ❤️ by <a target="_blank" href="https://achyutchapagain.com.np">ABChapagain</a></p>
 				</div>
 			</div>
 
 	</footer>
 	<!-- End footer -->
 
-	
+	<script>
+		const redirectTo = (link) => {
+			window.location.href = link;
+		}
+	</script>
 	
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
